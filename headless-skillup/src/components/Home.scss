@@ -1,0 +1,12 @@
+
+@import "../styles/variables";
+
+.home__title {
+  &:after {
+    display: block;
+    width: 84px;
+    padding-top: 8px;
+    content: "";
+    border-bottom: 2px solid $yellow;
+  }
+}

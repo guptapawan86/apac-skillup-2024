@@ -1,0 +1,65 @@
+/*
+Copyright 2022 Adobe
+All Rights Reserved.
+
+NOTICE: Adobe permits you to use, modify, and distribute this file in
+accordance with the terms of the Adobe license agreement accompanying
+it.
+*/
+
+@import "../styles/variables";
+
+.eventlanding {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.event {
+  position: relative;
+  background-color: $gray-lighter;
+  padding: 2rem;
+  width: 800px;
+  min-height: 300px;
+  border-bottom: 2px solid $gray-light;
+}
+
+.eventlanding__title {
+  margin-bottom: 1.5rem;
+}
+
+.eventlanding__eventlist-title {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: solid 1px $gray-light;
+}
+
+.eventlanding__eventlist {
+  clear: both;
+}
+
+.eventlanding__event {
+  margin-bottom: 0.5rem;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
